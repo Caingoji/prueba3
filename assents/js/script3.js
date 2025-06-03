@@ -6,13 +6,11 @@ let datos = []
 function validar()
     {
         let eTelefono = document.getElementById("Teléfono")
-        let vTelefono = document.getElementById(eTelefono)
+        let vTelefono = eTelefono
+        console.log(vTelefono)
 
-    if(vTelefono.Lenght>=8)
-        {
-
-            vTelefono.style.backgroundColor="green"
-            vTelefono.style.color="white"
-            console.log(vTelefono)
-        }
+        
+        let eContraseña = document.getElementById("Contraseña")
+        let vContraseña = eContraseña
+        console.log(vContraseña)
     }
