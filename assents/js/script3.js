@@ -1,0 +1,6 @@
+let datos = []
+
+let validar = 
+    (
+        
+    )
